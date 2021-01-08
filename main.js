@@ -32,7 +32,8 @@ if (playerMove === "paper" && computerMove === "scissors"){
     console.log("Computer Wins!")
 }
 */
-let computer = "Rock"
+//let computer = "Rock"
+//let player = prompt("choose now Rock Paper Scissors")
 
 function getWinner (player, computer) {
 
@@ -70,7 +71,7 @@ function getWinner (player, computer) {
 //player = prompt 
 //prompt("choose now Rock Paper Scissors")
 
-let player = prompt("choose now Rock Paper Scissors")
+//let player = prompt("choose now Rock Paper Scissors")
 //let computer = "Rock"
 
 //call function getWinner 
@@ -78,3 +79,11 @@ let player = prompt("choose now Rock Paper Scissors")
 
 // alert = getwinner (output of)
 //display result using alert function.
+
+let computer = "Rock"
+let player = prompt("choose now Rock Paper Scissors")
+let result = getWinner()
+//alert(getWinner())
+
+alert(result)
+
