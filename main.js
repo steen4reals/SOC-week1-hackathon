@@ -1,10 +1,9 @@
 console.log("hello");
 
+/*
 let playerMove = "rock";
 let computerMove = "scissors";
 
-
-/*
 if (playerMove === computerMove){
     console.log("draw")
 }
@@ -33,6 +32,7 @@ if (playerMove === "paper" && computerMove === "scissors"){
     console.log("Computer Wins!")
 }
 */
+let computer = "Rock"
 
 function getWinner (player, computer) {
 
@@ -62,6 +62,19 @@ function getWinner (player, computer) {
     
     if (player === "paper" && computer === "scissors"){
         console.log("-1")
-    }
+    } 
     
 }
+//let result = getWinner
+
+//player = prompt 
+//prompt("choose now Rock Paper Scissors")
+
+let player = prompt("choose now Rock Paper Scissors")
+//let computer = "Rock"
+
+//call function getWinner 
+
+
+// alert = getwinner (output of)
+//display result using alert function.
