@@ -77,13 +77,14 @@ console.log(result)
 alert(result)
 }
 
-/*let count = 0;
+let count = 0;
 while(count < 10) {
     runGame();
     count ++;
 }
-*/
 
+
+/*
 while() {
     runGame();
     prompt("Want to play again?");
@@ -92,3 +93,16 @@ while() {
         break;
     }
 }
+*/
+/*
+let gameStart = 1;
+
+    while(gameStart === 1){
+        runGame();
+        gameStart ++;
+    }
+
+
+    // click on confirm box to reset gamestart value to 1 in dom
+    */
+
