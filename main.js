@@ -32,58 +32,63 @@ if (playerMove === "paper" && computerMove === "scissors"){
     console.log("Computer Wins!")
 }
 */
-//let computer = "Rock"
-//let player = prompt("choose now Rock Paper Scissors")
+//let computer = "rock"
+let player = prompt("choose now Rock Paper Scissors");
+console.log(player);
+
+let compRand =["paper", "scissors", "rock"];
+
+let computer = compRand[Math.floor(Math.random() * compRand.length)];
+console.log(computer);
+
 
 function getWinner (player, computer) {
 
     if (player === computer){
-        console.log("0")
+        //console.log("0") 
+        return "0"
+    
     }
     
     if (player === "rock" && computer === "scissors"){
-        console.log("1")
+       // console.log("1")
+        return "1"
     }
     
+
     if (player === "paper" && computer === "rock"){
-        console.log("1")
+        //console.log("1")
+        return "1"
     }
     
     if (player === "scissors" && computer === "paper"){
-        console.log("1")
+        //console.log("1")
+        return "1"
     }
     
     if (player === "scissors" && computer === "rock"){
-        console.log("-1")
+       // console.log("-1")
+        return "-1"
     }
     
     if (player === "rock" && computer === "paper"){
-        console.log("-1")
+        //console.log("-1")
+        return "-1"
     }
     
     if (player === "paper" && computer === "scissors"){
-        console.log("-1")
+       // console.log("-1")
+        return "-1"
     } 
-    
+
 }
-//let result = getWinner
-
-//player = prompt 
-//prompt("choose now Rock Paper Scissors")
-
-//let player = prompt("choose now Rock Paper Scissors")
-//let computer = "Rock"
-
-//call function getWinner 
-
-
-// alert = getwinner (output of)
-//display result using alert function.
-
-let computer = "Rock"
-let player = prompt("choose now Rock Paper Scissors")
-let result = getWinner()
-//alert(getWinner())
+let result = getWinner(computer, player);
+//console.log(result)
 
 alert(result)
 
+//let compRand =["paper", "scissors", "rock"];
+
+//let computer = Math.random("paper", "scissors", "rock")
+
+//let computer = compRand[Math.floor(Math.random() * compRand.length)]
