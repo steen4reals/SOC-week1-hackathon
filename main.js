@@ -28,6 +28,7 @@ if (playerMove === "paper" && computerMove === "scissors"){
 */
 //let computer ="scissors"
 //let player = "paper"
+function runGame() {
 
 let player = prompt("choose now Rock Paper Scissors");
 console.log(player);
@@ -74,4 +75,20 @@ let result = getWinner(player, computer);
 console.log(result)
 
 alert(result)
+}
 
+/*let count = 0;
+while(count < 10) {
+    runGame();
+    count ++;
+}
+*/
+
+while() {
+    runGame();
+    prompt("Want to play again?");
+    let answer = prompt("Want to play again?");
+    if (answer === "no") {
+        break;
+    }
+}
